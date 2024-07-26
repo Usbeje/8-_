@@ -3,8 +3,8 @@
 //NOTE : cara menjadi publik owner silahkan Pergi ke file; all/database/owner.json
 
 require("./all/module")
-global.owner = "628xxxxx" 
-global.namaCreator = "" 
+global.owner = "6288211118394" 
+global.namaCreator = "Yo ndak tau" 
 global.autoJoin = false 
 global.antilink = false 
 global.versisc = '1.0' 
@@ -13,9 +13,9 @@ global.isLink = ' '
 global.thumb = fs.readFileSync("./thumb.png") 
 global.audionya = fs.readFileSync("./all/sound.mp3") 
 global.packname = "BOT" 
-global.author = "YT : TamzDev-MD" 
+global.author = "YT : ..." 
 global.jumlah = "5" 
-global.namabot = "BOT DELTACRASH V3 [B.E.T.A]" 
+global.namabot = "okskde" 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
